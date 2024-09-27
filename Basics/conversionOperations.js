@@ -23,6 +23,12 @@
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
-let isLoggedIn ="" //will give false
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+// let isLoggedIn ="" //will give false
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
+//console.log(typeof booleanIsLoggedIn)
+
+let isLoggedIn =123 //will give false
+let booleanIsLoggedIn = String(isLoggedIn)
 console.log(booleanIsLoggedIn)
+console.log(typeof booleanIsLoggedIn)
